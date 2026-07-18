@@ -1,5 +1,10 @@
 # 繁體 AI Prompt 庫
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Prompts](https://img.shields.io/badge/Prompts-100-brightgreen)
+![Language](https://img.shields.io/badge/Language-繁體中文-lightgrey)
+
 > 高品質、經過驗證的繁體中文 AI Prompt 集合。不是 500 個通用 prompt 的雜亂合集，而是針對繁體中文使用者精心設計的 100 個高質量 prompt。
 
 ## 產品理念
@@ -50,6 +55,18 @@
 | 格式 | 純文字 | 有分類、有情境說明 |
 | 更新 | 無 | 每月更新 10 個新 prompt |
 
+## 目錄結構
+
+```
+traditional-ai-prompt-library/
+├── prompts/
+│   ├── business.md       # 第一卷：商務應用（25 個 prompt）
+│   ├── content.md        # 第二卷：內容創作（25 個 prompt）
+│   ├── efficiency.md     # 第三卷：效率工具（25 個 prompt）
+│   └── advanced.md       # 第四卷：進階應用（25 個 prompt）
+└── README.md             # 本文件
+```
+
 ## 適合誰
 
 - 不想花時間摸索 AI 的使用者
@@ -69,7 +86,7 @@
 git clone https://github.com/ckw19810413/traditional-ai-prompt-library.git
 
 # 2. 瀏覽 prompt 目錄
-cd traditional-ai-prompt-library
+cd traditional-ai-prompt-library/prompts/
 
 # 3. 使用任意 prompt 即可
 # 複製你想要的 prompt，貼到 ChatGPT/Claude/Gemini 即可使用
@@ -77,7 +94,7 @@ cd traditional-ai-prompt-library
 
 ## License
 
-MIT License - 你可以自由使用、修改、分享這些 prompt。
+MIT License — 你可以自由使用、修改、分享這些 prompt。
 
 ---
 
